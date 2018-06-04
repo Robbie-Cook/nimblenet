@@ -15,7 +15,7 @@ training_data       = preprocess( dataset )
 test_data           = preprocess( dataset )
 
 
-cost_function       = sum_squared_error
+cost_function       = sum_squared_error # RMS cost function
 settings            = {
     # Required settings
     "n_inputs"              : 2,       # Number of network input signals

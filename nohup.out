@@ -6134,3 +6134,191 @@ Teacher patterns: [
 ('[training] Current error:', 0.025334087622647918, '\tEpoch:', 15000)
 ('[training] Current error:', 0.025249028930726641, '\tEpoch:', 20000)
 ('[training] Current error:', 0.025198352472084184, '\tEpoch:', 25000)
+('[training] Current error:', 0.025164740530183267, '\tEpoch:', 30000)
+('[training] Current error:', 0.025140826854709187, '\tEpoch:', 35000)
+('[training] Current error:', 0.025122949136802873, '\tEpoch:', 40000)
+('[training] Current error:', 0.025109081373346099, '\tEpoch:', 45000)
+('[training] Current error:', 0.02509801251467559, '\tEpoch:', 50000)
+('[training] Current error:', 0.025088974227174109, '\tEpoch:', 55000)
+('[training] Current error:', 0.02508145544556941, '\tEpoch:', 60000)
+('[training] Current error:', 0.02507510333296541, '\tEpoch:', 65000)
+('[training] Current error:', 0.025069666316004845, '\tEpoch:', 70000)
+('[training] Current error:', 0.025064960236259183, '\tEpoch:', 75000)
+('[training] Current error:', 0.025060847188609264, '\tEpoch:', 80000)
+('[training] Current error:', 0.025057221893821847, '\tEpoch:', 85000)
+('[training] Current error:', 0.025054002585981776, '\tEpoch:', 90000)
+('[training] Current error:', 0.025051124787056643, '\tEpoch:', 95000)
+('[training] Current error:', 0.025048536946489529, '\tEpoch:', 100000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.02505.
+[training]   Measured quality: 0.9987
+[training]   Trained for 100000 epochs.
+('Highest Disparity: ', 0.99999996905586253)
+
+
+Intervening
+
+('[training] Current error:', 0.50067034924837628, '\tEpoch:', 5000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009981.
+[training]   Measured quality: 0.99
+[training]   Trained for 5052 epochs.
+0.231523757888
+
+
+Intervening
+
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009412.
+[training]   Measured quality: 0.9906
+[training]   Trained for 2888 epochs.
+0.711697117469
+
+
+Intervening
+
+('[training] Current error:', 0.50018629205960563, '\tEpoch:', 5000)
+('[training] Current error:', 0.50009547078363836, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4999
+[training]   Trained for 10000 epochs.
+0.85721851952
+
+
+Intervening
+
+('[training] Current error:', 0.50015712881589514, '\tEpoch:', 5000)
+('[training] Current error:', 0.50007926430363137, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4999
+[training]   Trained for 10000 epochs.
+0.500956746924
+
+
+Intervening
+
+('[training] Current error:', 1.0001542943704664, '\tEpoch:', 5000)
+('[training] Current error:', 1.0000631310362833, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.
+[training]   Measured quality: -6.341e-05
+[training]   Trained for 10000 epochs.
+0.863534536114
+
+
+Intervening
+
+('[training] Current error:', 2.000111632772529, '\tEpoch:', 5000)
+('[training] Current error:', 1.0010489534704963, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.001.
+[training]   Measured quality: -0.001049
+[training]   Trained for 10000 epochs.
+2.03461001802
+
+
+Intervening
+
+('[training] Current error:', 0.5002527235436387, '\tEpoch:', 5000)
+('[training] Current error:', 0.50011164904182348, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4999
+[training]   Trained for 10000 epochs.
+2.22350956564
+
+
+Intervening
+
+('[training] Current error:', 1.0001190956569084, '\tEpoch:', 5000)
+('[training] Current error:', 1.0000598458773826, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.
+[training]   Measured quality: -5.985e-05
+[training]   Trained for 10000 epochs.
+2.28047642739
+
+
+Intervening
+
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009999.
+[training]   Measured quality: 0.99
+[training]   Trained for 140 epochs.
+1.78888195209
+
+
+Intervening
+
+('[training] Current error:', 0.50009798046767906, '\tEpoch:', 5000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009366.
+[training]   Measured quality: 0.9906
+[training]   Trained for 6323 epochs.
+1.49432727513
+('interventions', [{'inputPatterns': [[0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0]]}, {'inputPatterns': [[1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0]]}, {'inputPatterns': [[0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1]]}, {'inputPatterns': [[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0]]}, {'inputPatterns': [[0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1]]}, {'inputPatterns': [[0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0]]}, {'inputPatterns': [[1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1]]}, {'inputPatterns': [[0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0]]}, {'inputPatterns': [[1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1]]}, {'inputPatterns': [[1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]]}])
+Learning constant: 0.3
+Momentum constant: 0.5
+Input patterns: [
+[0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1]
+[1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1]
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0]
+[1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]
+[0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1]
+[1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1]
+[0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0]
+[1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0]
+[0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0]
+[0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+[0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1]
+[1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0]
+[0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1]
+[0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1]
+[0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1]
+[0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+]
+Teacher patterns: [
+[0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1]
+[1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1]
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0]
+[1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]
+[0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1]
+[1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1]
+[0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0]
+[1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0]
+[0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0]
+[0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+[0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1]
+[1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0]
+[0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1]
+[0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1]
+[0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1]
+[0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+]
+[gradient check] Running gradient check...
+[gradient check] Passed!
+('[training] Current error:', 0.025998606834186248, '\tEpoch:', 5000)
+('[training] Current error:', 0.025479749450143568, '\tEpoch:', 10000)
+('[training] Current error:', 0.025315567964426123, '\tEpoch:', 15000)
+('[training] Current error:', 0.025234954561106675, '\tEpoch:', 20000)
+('[training] Current error:', 0.025187065063263847, '\tEpoch:', 25000)
+('[training] Current error:', 0.025155345112897392, '\tEpoch:', 30000)
+('[training] Current error:', 0.025132793669487785, '\tEpoch:', 35000)
+('[training] Current error:', 0.025115940481869069, '\tEpoch:', 40000)
+('[training] Current error:', 0.025102869955824159, '\tEpoch:', 45000)
+('[training] Current error:', 0.025092438279585006, '\tEpoch:', 50000)
+('[training] Current error:', 0.025083920376442609, '\tEpoch:', 55000)
+('[training] Current error:', 0.02507683442071355, '\tEpoch:', 60000)
+('[training] Current error:', 0.025070847686858307, '\tEpoch:', 65000)
+('[training] Current error:', 0.025065723124950152, '\tEpoch:', 70000)
+('[training] Current

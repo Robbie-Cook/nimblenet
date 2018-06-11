@@ -1,0 +1,426 @@
+('interventions', [{'inputPatterns': [[0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1]]}, {'inputPatterns': [[1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1]]}, {'inputPatterns': [[1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]]}, {'inputPatterns': [[0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0]]}, {'inputPatterns': [[0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1]]}, {'inputPatterns': [[1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1]]}, {'inputPatterns': [[1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1]]}, {'inputPatterns': [[1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0]]}, {'inputPatterns': [[0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0]]}, {'inputPatterns': [[0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0]]}])
+Learning constant: 0.3
+Momentum constant: 0.5
+Input patterns: [
+[0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0]
+[1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0]
+[1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0]
+[0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1]
+[0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1]
+[1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0]
+[1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1]
+[0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0]
+[1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0]
+[1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+[1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1]
+[0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0]
+[1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0]
+[0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1]
+[1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0]
+[1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1]
+[1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+[1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+[1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0]
+]
+Teacher patterns: [
+[0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0]
+[1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0]
+[1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0]
+[0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1]
+[0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1]
+[1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0]
+[1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1]
+[0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0]
+[1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0]
+[1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+[1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1]
+[0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0]
+[1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0]
+[0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1]
+[1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0]
+[1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1]
+[1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+[1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+[1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0]
+]
+[gradient check] Running gradient check...
+[gradient check] Passed!
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009997.
+[training]   Measured quality: 0.9995
+[training]   Trained for 618 epochs.
+('Highest Disparity: ', 0.071268247627718995)
+
+
+
+Intervening
+
+
+
+('[training] Current error:', 0.50021810317508619, '\tEpoch:', 5000)
+('[training] Current error:', 0.50010460251411204, '\tEpoch:', 10000)
+('[training] Current error:', 0.50004008143372658, '\tEpoch:', 15000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.00982.
+[training]   Measured quality: 0.9902
+[training]   Trained for 16354 epochs.
+1.55639466334
+
+
+
+Intervening
+
+
+
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.00974.
+[training]   Measured quality: 0.9903
+[training]   Trained for 3264 epochs.
+0.87347868645
+
+
+
+Intervening
+
+
+
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.00987.
+[training]   Measured quality: 0.9901
+[training]   Trained for 1955 epochs.
+2.31922655702
+
+
+
+Intervening
+
+
+
+('[training] Current error:', 0.50009871857686417, '\tEpoch:', 5000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009667.
+[training]   Measured quality: 0.9903
+[training]   Trained for 6297 epochs.
+2.30059731715
+
+
+
+Intervening
+
+
+
+('[training] Current error:', 0.50031819350055462, '\tEpoch:', 5000)
+('[training] Current error:', 0.50014503204031802, '\tEpoch:', 10000)
+('[training] Current error:', 0.50008560850721351, '\tEpoch:', 15000)
+('[training] Current error:', 0.50004819213403018, '\tEpoch:', 20000)
+('[training] Current error:', 0.49996488627414043, '\tEpoch:', 25000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009897.
+[training]   Measured quality: 0.9901
+[training]   Trained for 26678 epochs.
+3.3295644359
+
+
+
+Intervening
+
+
+
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009879.
+[training]   Measured quality: 0.9901
+[training]   Trained for 141 epochs.
+2.52597775189
+
+
+
+Intervening
+
+
+
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.009908.
+[training]   Measured quality: 0.9901
+[training]   Trained for 4624 epochs.
+2.89519455509
+
+
+
+Intervening
+
+
+
+('[training] Current error:', 0.50014603483901887, '\tEpoch:', 5000)
+('[training] Current error:', 0.50007425252109039, '\tEpoch:', 10000)
+('[training] Current error:', 0.50005126184652127, '\tEpoch:', 15000)
+('[training] Current error:', 0.50003942109744715, '\tEpoch:', 20000)
+('[training] Current error:', 0.50003212368572203, '\tEpoch:', 25000)
+('[training] Current error:', 0.50002715385891572, '\tEpoch:', 30000)
+('[training] Current error:', 0.5000235432446849, '\tEpoch:', 35000)
+('[training] Current error:', 0.50002079786441389, '\tEpoch:', 40000)
+('[training] Current error:', 0.50001863825854143, '\tEpoch:', 45000)
+('[training] Current error:', 0.50001689405171335, '\tEpoch:', 50000)
+('[training] Current error:', 0.50001545530029123, '\tEpoch:', 55000)
+('[training] Current error:', 0.50001424781043846, '\tEpoch:', 60000)
+('[training] Current error:', 0.50001321966692269, '\tEpoch:', 65000)
+('[training] Current error:', 0.50001233343897256, '\tEpoch:', 70000)
+('[training] Current error:', 0.50001156145030323, '\tEpoch:', 75000)
+('[training] Current error:', 0.50001088279200812, '\tEpoch:', 80000)
+('[training] Current error:', 0.50001028137130998, '\tEpoch:', 85000)
+('[training] Current error:', 0.50000974459940262, '\tEpoch:', 90000)
+('[training] Current error:', 0.50000926248652144, '\tEpoch:', 95000)
+('[training] Current error:', 0.50000882700388372, '\tEpoch:', 100000)
+('[training] Current error:', 0.50000843162489716, '\tEpoch:', 105000)
+('[training] Current error:', 0.50000807098945876, '\tEpoch:', 110000)
+('[training] Current error:', 0.50000774065444353, '\tEpoch:', 115000)
+('[training] Current error:', 0.50000743690560734, '\tEpoch:', 120000)
+('[training] Current error:', 0.50000715661396744, '\tEpoch:', 125000)
+('[training] Current error:', 0.50000689712484392, '\tEpoch:', 130000)
+('[training] Current error:', 0.50000665617121987, '\tEpoch:', 135000)
+('[training] Current error:', 0.50000643180541704, '\tEpoch:', 140000)
+('[training] Current error:', 0.50000622234472913, '\tEpoch:', 145000)
+('[training] Current error:', 0.50000602632779156, '\tEpoch:', 150000)
+('[training] Current error:', 0.50000584247929558, '\tEpoch:', 155000)
+('[training] Current error:', 0.50000566968124371, '\tEpoch:', 160000)
+('[training] Current error:', 0.50000550694937895, '\tEpoch:', 165000)
+('[training] Current error:', 0.50000535341371877, '\tEpoch:', 170000)
+('[training] Current error:', 0.50000520830240525, '\tEpoch:', 175000)
+('[training] Current error:', 0.50000507092821156, '\tEpoch:', 180000)
+('[training] Current error:', 0.50000494067721912, '\tEpoch:', 185000)
+('[training] Current error:', 0.50000481699926913, '\tEpoch:', 190000)
+('[training] Current error:', 0.50000469939986425, '\tEpoch:', 195000)
+('[training] Current error:', 0.50000458743327969, '\tEpoch:', 200000)
+('[training] Current error:', 0.50000448069667136, '\tEpoch:', 205000)
+('[training] Current error:', 0.50000437882502136, '\tEpoch:', 210000)
+('[training] Current error:', 0.50000428148677944, '\tEpoch:', 215000)
+('[training] Current error:', 0.50000418838009986, '\tEpoch:', 220000)
+('[training] Current error:', 0.50000409922956823, '\tEpoch:', 225000)
+('[training] Current error:', 0.50000401378336023, '\tEpoch:', 230000)
+('[training] Current error:', 0.50000393181075431, '\tEpoch:', 235000)
+('[training] Current error:', 0.50000385309995832, '\tEpoch:', 240000)
+('[training] Current error:', 0.50000377745619362, '\tEpoch:', 245000)
+('[training] Current error:', 0.50000370470001398, '\tEpoch:', 250000)
+('[training] Current error:', 0.50000363466581488, '\tEpoch:', 255000)
+('[training] Current error:', 0.5000035672005223, '\tEpoch:', 260000)
+('[training] Current error:', 0.50000350216241485, '\tEpoch:', 265000)
+('[training] Current error:', 0.50000343942009207, '\tEpoch:', 270000)
+('[training] Current error:', 0.50000337885154189, '\tEpoch:', 275000)
+('[training] Current error:', 0.5000033203433123, '\tEpoch:', 280000)
+('[training] Current error:', 0.50000326378976978, '\tEpoch:', 285000)
+('[training] Current error:', 0.50000320909243368, '\tEpoch:', 290000)
+('[training] Current error:', 0.50000315615937485, '\tEpoch:', 295000)
+('[training] Current error:', 0.50000310490467981, '\tEpoch:', 300000)
+('[training] Current error:', 0.50000305524795874, '\tEpoch:', 305000)
+('[training] Current error:', 0.5000030071139111, '\tEpoch:', 310000)
+('[training] Current error:', 0.50000296043192194, '\tEpoch:', 315000)
+('[training] Current error:', 0.50000291513570316, '\tEpoch:', 320000)
+('[training] Current error:', 0.5000028711629646, '\tEpoch:', 325000)
+('[training] Current error:', 0.50000282845511479, '\tEpoch:', 330000)
+('[training] Current error:', 0.50000278695698719, '\tEpoch:', 335000)
+('[training] Current error:', 0.50000274661659516, '\tEpoch:', 340000)
+('[training] Current error:', 0.50000270738490127, '\tEpoch:', 345000)
+('[training] Current error:', 0.5000026692156111, '\tEpoch:', 350000)
+('[training] Current error:', 0.50000263206498363, '\tEpoch:', 355000)
+('[training] Current error:', 0.50000259589165286, '\tEpoch:', 360000)
+('[training] Current error:', 0.50000256065647231, '\tEpoch:', 365000)
+('[training] Current error:', 0.50000252632236331, '\tEpoch:', 370000)
+('[training] Current error:', 0.50000249285418108, '\tEpoch:', 375000)
+('[training] Current error:', 0.50000246021858974, '\tEpoch:', 380000)
+('[training] Current error:', 0.50000242838394304, '\tEpoch:', 385000)
+('[training] Current error:', 0.50000239732018359, '\tEpoch:', 390000)
+('[training] Current error:', 0.50000236699873746, '\tEpoch:', 395000)
+('[training] Current error:', 0.50000233739242872, '\tEpoch:', 400000)
+('[training] Current error:', 0.50000230847538929, '\tEpoch:', 405000)
+('[training] Current error:', 0.5000022802229841, '\tEpoch:', 410000)
+('[training] Current error:', 0.50000225261173636, '\tEpoch:', 415000)
+('[training] Current error:', 0.50000222561925955, '\tEpoch:', 420000)
+('[training] Current error:', 0.50000219922419431, '\tEpoch:', 425000)
+('[training] Current error:', 0.50000217340615083, '\tEpoch:', 430000)
+('[training] Current error:', 0.50000214814565247, '\tEpoch:', 435000)
+('[training] Current error:', 0.5000021234240859, '\tEpoch:', 440000)
+('[training] Current error:', 0.50000209922365135, '\tEpoch:', 445000)
+('[training] Current error:', 0.50000207552732112, '\tEpoch:', 450000)
+('[training] Current error:', 0.50000205231879546, '\tEpoch:', 455000)
+('[training] Current error:', 0.50000202958246476, '\tEpoch:', 460000)
+('[training] Current error:', 0.50000200730337119, '\tEpoch:', 465000)
+('[training] Current error:', 0.50000198546717778, '\tEpoch:', 470000)
+('[training] Current error:', 0.50000196406013375, '\tEpoch:', 475000)
+('[training] Current error:', 0.50000194306904477, '\tEpoch:', 480000)
+('[training] Current error:', 0.50000192248124575, '\tEpoch:', 485000)
+('[training] Current error:', 0.50000190228457331, '\tEpoch:', 490000)
+('[training] Current error:', 0.50000188246733979, '\tEpoch:', 495000)
+('[training] Current error:', 0.50000186301831384, '\tEpoch:', 500000)
+('[training] Current error:', 0.50000184392669234, '\tEpoch:', 505000)
+('[training] Current error:', 0.50000182518208514, '\tEpoch:', 510000)
+('[training] Current error:', 0.50000180677449158, '\tEpoch:', 515000)
+('[training] Current error:', 0.50000178869428413, '\tEpoch:', 520000)
+('[training] Current error:', 0.500001770932189, '\tEpoch:', 525000)
+('[training] Current error:', 0.50000175347927212, '\tEpoch:', 530000)
+('[training] Current error:', 0.50000173632692169, '\tEpoch:', 535000)
+('[training] Current error:', 0.50000171946683281, '\tEpoch:', 540000)
+('[training] Current error:', 0.50000170289099655, '\tEpoch:', 545000)
+('[training] Current error:', 0.50000168659168209, '\tEpoch:', 550000)
+('[training] Current error:', 0.50000167056142997, '\tEpoch:', 555000)
+('[training] Current error:', 0.5000016547930356, '\tEpoch:', 560000)
+('[training] Current error:', 0.50000163927953867, '\tEpoch:', 565000)
+('[training] Current error:', 0.50000162401421522, '\tEpoch:', 570000)
+('[training] Current error:', 0.50000160899056501, '\tEpoch:', 575000)
+('[training] Current error:', 0.50000159420230184, '\tEpoch:', 580000)
+('[training] Current error:', 0.50000157964334724, '\tEpoch:', 585000)
+('[training] Current error:', 0.50000156530781736, '\tEpoch:', 590000)
+('[training] Current error:', 0.50000155119001888, '\tEpoch:', 595000)
+('[training] Current error:', 0.50000153728443897, '\tEpoch:', 600000)
+('[training] Current error:', 0.50000152358573879, '\tEpoch:', 605000)
+('[training] Current error:', 0.50000151008874472, '\tEpoch:', 610000)
+('[training] Current error:', 0.50000149678844397, '\tEpoch:', 615000)
+('[training] Current error:', 0.50000148367997754, '\tEpoch:', 620000)
+('[training] Current error:', 0.50000147075863099, '\tEpoch:', 625000)
+('[training] Current error:', 0.5000014580198342, '\tEpoch:', 630000)
+('[training] Current error:', 0.50000144545915082, '\tEpoch:', 635000)
+('[training] Current error:', 0.50000143307227585, '\tEpoch:', 640000)
+('[training] Current error:', 0.50000142085502797, '\tEpoch:', 645000)
+('[training] Current error:', 0.50000140880334887, '\tEpoch:', 650000)
+('[training] Current error:', 0.5000013969132926, '\tEpoch:', 655000)
+('[training] Current error:', 0.50000138518102788, '\tEpoch:', 660000)
+('[training] Current error:', 0.50000137360282804, '\tEpoch:', 665000)
+('[training] Current error:', 0.50000136217507041, '\tEpoch:', 670000)
+('[training] Current error:', 0.50000135089423092, '\tEpoch:', 675000)
+('[training] Current error:', 0.50000133975688077, '\tEpoch:', 680000)
+('[training] Current error:', 0.50000132875968362, '\tEpoch:', 685000)
+('[training] Current error:', 0.50000131789939095, '\tEpoch:', 690000)
+('[training] Current error:', 0.50000130717283875, '\tEpoch:', 695000)
+('[training] Current error:', 0.50000129657694536, '\tEpoch:', 700000)
+('[training] Current error:', 0.50000128610870809, '\tEpoch:', 705000)
+('[training] Current error:', 0.50000127576519982, '\tEpoch:', 710000)
+('[training] Current error:', 0.50000126554356594, '\tEpoch:', 715000)
+('[training] Current error:', 0.50000125544102381, '\tEpoch:', 720000)
+('[training] Current error:', 0.50000124545485669, '\tEpoch:', 725000)
+('[training] Current error:', 0.50000123558241472, '\tEpoch:', 730000)
+('[training] Current error:', 0.50000122582111028, '\tEpoch:', 735000)
+('[training] Current error:', 0.50000121616841564, '\tEpoch:', 740000)
+('[training] Current error:', 0.50000120662186287, '\tEpoch:', 745000)
+('[training] Current error:', 0.50000119717903879, '\tEpoch:', 750000)
+('[training] Current error:', 0.5000011878375854, '\tEpoch:', 755000)
+('[training] Current error:', 0.50000117859519633, '\tEpoch:', 760000)
+('[training] Current error:', 0.50000116944961581, '\tEpoch:', 765000)
+('[training] Current error:', 0.50000116039863485, '\tEpoch:', 770000)
+('[training] Current error:', 0.50000115144009361, '\tEpoch:', 775000)
+('[training] Current error:', 0.50000114257187422, '\tEpoch:', 780000)
+('[training] Current error:', 0.50000113379190392, '\tEpoch:', 785000)
+('[training] Current error:', 0.50000112509814987, '\tEpoch:', 790000)
+('[training] Current error:', 0.50000111648862033, '\tEpoch:', 795000)
+('[training] Current error:', 0.50000110796136032, '\tEpoch:', 800000)
+('[training] Current error:', 0.50000109951445226, '\tEpoch:', 805000)
+('[training] Current error:', 0.50000109114601465, '\tEpoch:', 810000)
+('[training] Current error:', 0.50000108285419809, '\tEpoch:', 815000)
+('[training] Current error:', 0.50000107463718735, '\tEpoch:', 820000)
+('[training] Current error:', 0.50000106649319664, '\tEpoch:', 825000)
+('[training] Current error:', 0.5000010584204706, '\tEpoch:', 830000)
+('[training] Current error:', 0.50000105041728315, '\tEpoch:', 835000)
+('[training] Current error:', 0.50000104248193411, '\tEpoch:', 840000)
+('[training] Current error:', 0.50000103461274914, '\tEpoch:', 845000)
+('[training] Current error:', 0.50000102680807934, '\tEpoch:', 850000)
+('[training] Current error:', 0.50000101906629901, '\tEpoch:', 855000)
+('[training] Current error:', 0.50000101138580522, '\tEpoch:', 860000)
+('[training] Current error:', 0.50000100376501511, '\tEpoch:', 865000)
+('[training] Current error:', 0.50000099620236638, '\tEpoch:', 870000)
+('[training] Current error:', 0.50000098869631571, '\tEpoch:', 875000)
+('[training] Current error:', 0.50000098124533754, '\tEpoch:', 880000)
+('[training] Current error:', 0.50000097384792275, '\tEpoch:', 885000)
+('[training] Current error:', 0.50000096650257742, '\tEpoch:', 890000)
+('[training] Current error:', 0.50000095920782361, '\tEpoch:', 895000)
+('[training] Current error:', 0.50000095196219385, '\tEpoch:', 900000)
+('[training] Current error:', 0.50000094476423596, '\tEpoch:', 905000)
+('[training] Current error:', 0.50000093761250686, '\tEpoch:', 910000)
+('[training] Current error:', 0.50000093050557493, '\tEpoch:', 915000)
+('[training] Current error:', 0.50000092344201663, '\tEpoch:', 920000)
+('[training] Current error:', 0.50000091642041655, '\tEpoch:', 925000)
+('[training] Current error:', 0.50000090943936604, '\tEpoch:', 930000)
+('[training] Current error:', 0.50000090249746298, '\tEpoch:', 935000)
+('[training] Current error:', 0.5000008955933084, '\tEpoch:', 940000)
+('[training] Current error:', 0.50000088872550807, '\tEpoch:', 945000)
+('[training] Current error:', 0.50000088189266945, '\tEpoch:', 950000)
+('[training] Current error:', 0.50000087509340041, '\tEpoch:', 955000)
+('[training] Current error:', 0.5000008683263113, '\tEpoch:', 960000)
+('[training] Current error:', 0.50000086159000756, '\tEpoch:', 965000)
+('[training] Current error:', 0.50000085488309554, '\tEpoch:', 970000)
+('[training] Current error:', 0.50000084820417612, '\tEpoch:', 975000)
+('[training] Current error:', 0.50000084155184477, '\tEpoch:', 980000)
+('[training] Current error:', 0.50000083492469194, '\tEpoch:', 985000)
+('[training] Current error:', 0.50000082832129888, '\tEpoch:', 990000)
+('[training] Current error:', 0.50000082174023897, '\tEpoch:', 995000)
+('[training] Current error:', 0.50000081518007355, '\tEpoch:', 1000000)
+('[training] Current error:', 0.50000080863935348, '\tEpoch:', 1005000)
+('[training] Current error:', 0.50000080211661491, '\tEpoch:', 1010000)
+('[training] Current error:', 0.50000079561037836, '\tEpoch:', 1015000)
+('[training] Current error:', 0.50000078911914769, '\tEpoch:', 1020000)
+('[training] Current error:', 0.50000078264140824, '\tEpoch:', 1025000)
+('[training] Current error:', 0.50000077617562344, '\tEpoch:', 1030000)
+('[training] Current error:', 0.50000076972023666, '\tEpoch:', 1035000)
+('[training] Current error:', 0.50000076327366416, '\tEpoch:', 1040000)
+('[training] Current error:', 0.5000007568342969, '\tEpoch:', 1045000)
+('[training] Current error:', 0.5000007504004963, '\tEpoch:', 1050000)
+('[training] Current error:', 0.50000074397059224, '\tEpoch:', 1055000)
+('[training] Current error:', 0.50000073754288232, '\tEpoch:', 1060000)
+('[training] Current error:', 0.50000073111562626, '\tEpoch:', 1065000)
+('[training] Current error:', 0.50000072468704571, '\tEpoch:', 1070000)
+('[training] Current error:', 0.50000071825532055, '\tEpoch:', 1075000)
+('[training] Current error:', 0.50000071181858452, '\tEpoch:', 1080000)
+('[training] Current error:', 0.50000070537492491, '\tEpoch:', 1085000)
+('[training] Current error:', 0.50000069892237597, '\tEpoch:', 1090000)
+('[training] Current error:', 0.50000069245891798, '\tEpoch:', 1095000)
+('[training] Current error:', 0.50000068598247049, '\tEpoch:', 1100000)
+('[training] Current error:', 0.50000067949089111, '\tEpoch:', 1105000)
+('[training] Current error:', 0.50000067298197048, '\tEpoch:', 1110000)
+('[training] Current error:', 0.50000066645342478, '\tEpoch:', 1115000)
+('[training] Current error:', 0.50000065990289499, '\tEpoch:', 1120000)
+('[training] Current error:', 0.50000065332793853, '\tEpoch:', 1125000)
+('[training] Current error:', 0.5000006467260244, '\tEpoch:', 1130000)
+('[training] Current error:', 0.50000064009452772, '\tEpoch:', 1135000)
+('[training] Current error:', 0.50000063343072143, '\tEpoch:', 1140000)
+('[training] Current error:', 0.5000006267317717, '\tEpoch:', 1145000)
+('[training] Current error:', 0.50000061999472811, '\tEpoch:', 1150000)
+('[training] Current error:', 0.50000061321651701, '\tEpoch:', 1155000)
+('[training] Current error:', 0.50000060639393018, '\tEpoch:', 1160000)
+('[training] Current error:', 0.5000005995236193, '\tEpoch:', 1165000)
+('[training] Current error:', 0.50000059260208207, '\tEpoch:', 1170000)
+('[training] Current error:', 0.50000058562565275, '\tEpoch:', 1175000)
+('[training] Current error:', 0.50000057859048985, '\tEpoch:', 1180000)
+('[training] Current error:', 0.50000057149256216, '\tEpoch:', 1185000)
+('[training] Current error:', 0.50000056432763618, '\tEpoch:', 1190000)
+('[training] Current error:', 0.50000055709125824, '\tEpoch:', 1195000)
+('[training] Current error:', 0.50000054977874098, '\tEpoch:', 1200000)
+('[training] Current error:', 0.5000005423851408, '\tEpoch:', 1205000)
+('[training] Current error:', 0.50000053490524154, '\tEpoch:', 1210000)
+('[training] Current error:', 0.50000052733352918, '\tEpoch:', 1215000)
+('[training] Current error:', 0.50000051966417081, '\tEpoch:', 1220000)
+('[training] Current error:', 0.50000051189098493, '\tEpoch:', 1225000)
+('[training] Current error:', 0.50000050400741625, '\tEpoch:', 1230000)
+('[training] Current error:', 0.5000004960064991, '\tEpoch:', 1235000)
+('[training] Current error:', 0.50000048788082663, '\tEpoch:', 1240000)
+('[training] Current error:', 0.50000047962250782, '\tEpoch:', 1245000)
+('[training] Current error:', 0.50000047122312663, '\tEpoch:', 1250000)
+('[training] Current error:', 0.50000046267369425, '\tEpoch:', 1255000)
+('[training] Current error:', 0.50000045396459425, '\tEpoch:', 1260000)
+('[training] Current error:', 0.50000044508552521, '\tEpoch:', 1265000)
+('[training] Current error:', 0.50000043602543398, '\tEpoch:', 1270000)
+('[training] Current error:', 0.50000042677244094, '\tEpoch:', 1275000)
+('[training] Current error:', 0.50000041731375966, '\tEpoch:', 1280000)
+('[training] Current error:', 0.50000040763560205, '\tEpoch:', 1285000)
+('[training] Current error:', 0.50000039772307536, '\tEpoch:', 1290000)
+('[training] Current error:', 0.50000038756006415, '\tEpoch:', 1295000)
+('[training] Current error:', 0.50000037712909728, '\tEpoch:', 1300000)
+('[training] Current error:', 0.50000036641119672, '\tEpoch:', 1305000)
+('[training] Current error:', 0.50000035538570675, '\tEpoch:', 1310000)
+('[training] Current error:', 0.50000034403009785, '\tEpoch:', 1315000)
+('[training] Current error:', 0.50000033231974339, '\tEpoch:', 1320000)
+('[training] Current error:', 0.50000032022766228, '\tEpoch:', 1325000)
+('[training] Current error:', 0.50000030772422455, '\tEpoch:', 1330000)
+('[training] Current error:', 0.50000029477681007, '\tEpoch:', 1335000)
+('[training] Current error:', 0.50000028134941121, '\tEpoch:', 1340000)
+('[training] Current error:', 0.50000026740217429, '\tEpoch:', 1345000)
+('[training] Current error:', 0.50000025289085948, '\tEpoch:', 1350000)
+('[training] Current error:', 0.5000002377662115, '\tEpoch:', 1355000)
+('[training] Current error:', 0.50000022197321192, '\tEpoch:', 

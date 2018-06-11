@@ -1,17 +1,4 @@
-import task
+import numpy as np
 
-mytask = (task.Task(
-    inputNodes=32,
-    hiddenNodes=16,
-    outputNodes=32,
-    populationSize=20,
-    auto=True,
-    learningConstant=0.1,
-    momentumConstant=0.9
-)).task
-
-print("[")
-for i in range(0, len(mytask['inputPatterns'])):
-    print("[{}, {}], ".format(mytask['inputPatterns'][i],
-                                    mytask['teacher'][i]))
-print("]")
+mylist = [round(a,2) for a in np.arange(0,3.01,0.2)]
+print("{" + "{}".format(str(mylist)[1:-1]) + "}")

@@ -16,20 +16,21 @@ Parameters:
 inputNodes = 32
 hiddenNodes = 16
 outputNodes = 32
-populationSize = 25
-numInterventions = 5
+numInterventions = 10
+populationSize = 20+numInterventions
 auto = True
 learningConstant = 0.3
 momentumConstant = 0.5
-errorCriterion = 0.02
-cost_function = cross_entropy_cost
+errorCriterion = 0.01
+cost_function = sum_squared_error
 batch_size = 1
 printRate = 5000
+learningAlgorithm = backpropagation_classical_momentum
 
 i = 0
 while "output{}.txt".format(i) in os.listdir("."):
     i+=1
-outputFile = "output{}.txt".format(i)
+outputFile = open("output{}.txt".format(i), 'w')
 
 # Training set
 
@@ -81,7 +82,7 @@ network             = NeuralNet( settings )
 network.check_gradient( training_data, cost_function )
 
 # Train the network using backpropagation
-RMSprop(
+learningAlgorithm(
         network,                            # the network to train
         training_data,                      # specify the training set
         test_data,                          # specify the test set
@@ -100,9 +101,9 @@ RMSprop(
     )
 
 # print_test(network=network, testset=test_data, cost_function=cost_function)
-print_test(network=network, testset=test_data, cost_function=cost_function)
+# print_test(network=network, testset=test_data, cost_function=cost_function)
 print("Highest Disparity: ",getHighestDisparity(network=network, testset=test_data, cost_function=cost_function))
-
+outputFile.write(str(getError(network=network, testset=test_data, cost_function=cost_function))+"\n")
 
 """
 Intervening trial
@@ -117,7 +118,7 @@ def intervene(interveningTask):
         interveningDataset.append(Instance(interveningInputs[i], interveningTeacher[i]))
 
     # Train the network using backpropagation
-    RMSprop(
+    learningAlgorithm(
             network,                            # the network to train
             interveningDataset,                      # specify the training set
             interveningDataset,                          # specify the test set
@@ -127,7 +128,7 @@ def intervene(interveningTask):
             # max_iterations         = 10000,      # continues until the error limit is reach if this argument is skipped
 
             batch_size              = batch_size,        # 1 := no batch learning, 0 := entire trainingset as a batch, anything else := batch size
-            print_rate              = 10000,     # print error status every `print_rate` epoch.
+            print_rate              = printRate,     # print error status every `print_rate` epoch.
             learning_rate           = learningConstant,      # learning rate
             momentum_factor         = momentumConstant,      # momentum
             input_layer_dropout     = 0.0,      # dropout fraction of the input layer
@@ -136,4 +137,5 @@ def intervene(interveningTask):
         )
 for i in range(0, len(interventions)):
     intervene(interventions[i])
+    outputFile.write(str(getError(network=network, testset=test_data, cost_function=cost_function))+"\n")
     print(getError(network=network, testset=test_data, cost_function=cost_function))

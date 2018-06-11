@@ -6321,4 +6321,140 @@ Teacher patterns: [
 ('[training] Current error:', 0.02507683442071355, '\tEpoch:', 60000)
 ('[training] Current error:', 0.025070847686858307, '\tEpoch:', 65000)
 ('[training] Current error:', 0.025065723124950152, '\tEpoch:', 70000)
-('[training] Current
+('[training] Current error:', 0.025061287205522021, '\tEpoch:', 75000)
+('[training] Current error:', 0.025057410019908698, '\tEpoch:', 80000)
+('[training] Current error:', 0.025053992384880854, '\tEpoch:', 85000)
+('[training] Current error:', 0.025050957289811514, '\tEpoch:', 90000)
+('[training] Current error:', 0.025048243960511203, '\tEpoch:', 95000)
+('[training] Current error:', 0.025045803893453854, '\tEpoch:', 100000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.02505.
+[training]   Measured quality: 0.9987
+[training]   Trained for 100000 epochs.
+('Highest Disparity: ', 0.99999991492005702)
+
+
+Intervening
+
+('[training] Current error:', 0.50014583860608208, '\tEpoch:', 5000)
+('[training] Current error:', 0.50006124722701983, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4999
+[training]   Trained for 10000 epochs.
+0.276047032786
+
+
+Intervening
+
+('[training] Current error:', 0.50020003172642513, '\tEpoch:', 5000)
+('[training] Current error:', 0.50007964884433809, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4999
+[training]   Trained for 10000 epochs.
+0.680887391972
+
+
+Intervening
+
+('[training] Current error:', 1.5001862737545995, '\tEpoch:', 5000)
+('[training] Current error:', 1.5000940437057471, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.5.
+[training]   Measured quality: -0.5001
+[training]   Trained for 10000 epochs.
+1.021464464
+
+
+Intervening
+
+('[training] Current error:', 0.50029431374539635, '\tEpoch:', 5000)
+('[training] Current error:', 0.50014664064927228, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4998
+[training]   Trained for 10000 epochs.
+1.09405028234
+
+
+Intervening
+
+('[training] Current error:', 0.50015943316916078, '\tEpoch:', 5000)
+('[training] Current error:', 0.50008098599268536, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 0.5001.
+[training]   Measured quality: 0.4999
+[training]   Trained for 10000 epochs.
+1.54241901279
+
+
+Intervening
+
+('[training] Current error:', 1.0001184206471574, '\tEpoch:', 5000)
+('[training] Current error:', 1.0000602484592063, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.
+[training]   Measured quality: -6.079e-05
+[training]   Trained for 10000 epochs.
+1.65457835821
+
+
+Intervening
+
+('[training] Current error:', 1.0001971412066872, '\tEpoch:', 5000)
+('[training] Current error:', 1.000063083343244, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.
+[training]   Measured quality: -6.344e-05
+[training]   Trained for 10000 epochs.
+1.90634025631
+
+
+Intervening
+
+('[training] Current error:', 1.5001138219850727, '\tEpoch:', 5000)
+('[training] Current error:', 1.5000592020666248, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.5.
+[training]   Measured quality: -0.5001
+[training]   Trained for 10000 epochs.
+1.72725027223
+
+
+Intervening
+
+('[training] Current error:', 1.5004137773861721, '\tEpoch:', 5000)
+('[training] Current error:', 1.5000966133142914, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.5.
+[training]   Measured quality: -0.5001
+[training]   Trained for 10000 epochs.
+2.07145768743
+
+
+Intervening
+
+('[training] Current error:', 1.5000765844805963, '\tEpoch:', 5000)
+('[training] Current error:', 1.0002933823182687, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.01) with error 1.
+[training]   Measured quality: -0.0002934
+[training]   Trained for 10000 epochs.
+2.2837620657
+('interventions', [{'inputPatterns': [[0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]]}, {'inputPatterns': [[1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1]]}, {'inputPatterns': [[1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0]]}, {'inputPatterns': [[0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]]}, {'inputPatterns': [[0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0]]}, {'inputPatterns': [[1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1]]}, {'inputPatterns': [[0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0]]}, {'inputPatterns': [[1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0]]}, {'inputPatterns': [[0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0]]}, {'inputPatterns': [[0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]], 'numberOfHiddenNodes': 16, 'learningConstant': 0.3, 'momentumConstant': 0.5, 'teacher': [[0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]}])
+Learning constant: 0.3
+Momentum constant: 0.5
+Input patterns: [
+[1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0]
+[0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0]
+[1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1]
+[0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1]
+[0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1]
+[0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1]
+[1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1]
+[1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1]
+[1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0]
+[1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,

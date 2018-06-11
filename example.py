@@ -13,9 +13,9 @@ import json
 # Training set
 
 taskobject = task.Task(
-    inputNodes=16,
-    hiddenNodes=9,
-    outputNodes=16,
+    inputNodes=8,
+    hiddenNodes=4,
+    outputNodes=8,
 
     populationSize=20,
     auto=False,

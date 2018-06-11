@@ -5,6 +5,7 @@ from nimblenet.neuralnet import NeuralNet
 from nimblenet.preprocessing import construct_preprocessor, standarize
 from nimblenet.data_structures import Instance
 from nimblenet.tools import *
+import interference
 import task
 import os
 import json
@@ -71,11 +72,6 @@ for i in range(repeats):
         "layers"                : [  (hiddenNodes, sigmoid_function), (outputNodes, sigmoid_function) ],
                                             # [ (number_of_neurons, activation_function) ]
                                             # The last pair in the list dictate the number of output signals
-
-        # Optional settings
-        "initial_bias_value"    : 0.0,
-        "weights_low"           : -0.1,     # Lower bound on the initial weight value
-        "weights_high"          : 0.1,      # Upper bound on the initial weight value
     }
 
 
@@ -92,7 +88,7 @@ for i in range(repeats):
             cost_function,                      # specify the cost function to calculate error
 
             ERROR_LIMIT             = errorCriterion,     # define an acceptable error limit
-            #max_iterations         = 5000,      # continues until the error limit is reach if this argument is skipped
+            max_iterations         = 100000,      # continues until the error limit is reach if this argument is skipped
 
             batch_size              = batch_size,        # 1 := no batch learning, 0 := entire trainingset as a batch, anything else := batch size
             print_rate              = printRate,     # print error status every `print_rate` epoch.
@@ -128,7 +124,7 @@ for i in range(repeats):
                 cost_function,                      # specify the cost function to calculate error
 
                 ERROR_LIMIT             = errorCriterion,     # define an acceptable error limit
-                # max_iterations         = 10000,      # continues until the error limit is reach if this argument is skipped
+                max_iterations         = 10000,      # continues until the error limit is reach if this argument is skipped
 
                 batch_size              = batch_size,        # 1 := no batch learning, 0 := entire trainingset as a batch, anything else := batch size
                 print_rate              = printRate,     # print error status every `print_rate` epoch.

@@ -1,6 +1,6 @@
 import random
 import copy
-import neuralnetwork as nn
+# import neuralnetwork as nn
 
 class Task:
 
@@ -71,7 +71,7 @@ class Task:
             self.task['teacher'].append(tp[i])
 
 
-    def loadTask(self, preserveNet=True):
-        task = self.task
-        nn.initalise(input=task["inputPatterns"], teach=task["teacher"], momentum=task["momentumConstant"],
-                 hiddenNodes=task["numberOfHiddenNodes"], learning=task["learningConstant"], preserveNet=preserveNet)
+    # def loadTask(self, preserveNet=True):
+    #     task = self.task
+    #     nn.initalise(input=task["inputPatterns"], teach=task["teacher"], momentum=task["momentumConstant"],
+    #              hiddenNodes=task["numberOfHiddenNodes"], learning=task["learningConstant"], preserveNet=preserveNet)

@@ -1,5 +1,6 @@
 import numpy as np
 import os
+import copy
 
 
 def getError(network, testset, cost_function):
@@ -35,6 +36,31 @@ def print_test( network, testset, cost_function):
     for entry, result, target in zip(test_data, out, test_targets):
         print("[testing]   %s\t%s\t%s" % tuple(map(str, [entry, result, target])))
 #end
+
+def getGoodness( network, testset, cost_function):
+    assert testset[0].features.shape[0] == network.n_inputs, \
+        "ERROR: input size varies from the defined input setting"
+    assert testset[0].targets.shape[0]  == network.layers[-1][0], \
+        "ERROR: output size varies from the defined output setting"
+
+    test_data              = np.array( [instance.features for instance in testset ] )
+    test_targets           = np.array( [instance.targets  for instance in testset ] )
+
+    input_signals, derivatives = network.update( test_data, trace=True )
+    out                        = input_signals[-1]
+    totalGoodness = 0
+    for i in range(len(out)):
+        out_i = copy.copy(out[i])
+        test_targets_i = copy.copy(test_targets[i])
+        for j in range(len(out_i)):
+            out_i[j] = out_i[j]*2-1
+            test_targets_i[j] = test_targets_i[j]*2-1
+        answer = np.dot(out_i, test_targets_i)/len(out_i)
+        totalGoodness += answer
+    return totalGoodness/len(out)
+
+    # error                      = cost_function(out, test_targets )
+
 def getHighestDisparity(network, testset, cost_function):
         assert testset[0].features.shape[0] == network.n_inputs, \
             "ERROR: input size varies from the defined input setting"

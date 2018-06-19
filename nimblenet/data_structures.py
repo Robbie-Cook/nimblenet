@@ -5,10 +5,15 @@ class Instance:
     # pair in our training set.
     def __init__(self, features, target = None ):
         self.features = np.array(features)
-        
+
         if target != None:
             self.targets  = np.array(target)
         else:
             self.targets  = None
-#endclass Instance
 
+    def __str__(self):
+        if len(self.targets) == 0:
+            return "({})".format(self.features)
+        else:
+            return "({}, {})".format(self.features, self.targets)
+#endclass Instance

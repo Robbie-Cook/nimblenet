@@ -87,4 +87,5 @@ def backpropagation_foundation(network, trainingset, testset, cost_function, cal
 
     if save_trained_network and confirm( promt = "Do you wish to store the trained network?" ):
         network.save_network_to_file()
+    
 # end backprop

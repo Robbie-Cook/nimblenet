@@ -55,12 +55,13 @@ class Task:
         self.task["teacher"] = teacher
 
 
-    def popTask(self):
+    def popTask(self, retain=False):
         newTask = copy.deepcopy(self.task)
         newTask['inputPatterns'] = [newTask['inputPatterns'][0]]
-        self.task['inputPatterns'] = self.task['inputPatterns'][1:]
         newTask['teacher'] = [newTask['teacher'][0]]
-        self.task['teacher'] = self.task['teacher'][1:]
+        if not retain:
+            self.task['inputPatterns'] = self.task['inputPatterns'][1:]
+            self.task['teacher'] = self.task['teacher'][1:]
         return newTask
 
     def pushTask(self, t):

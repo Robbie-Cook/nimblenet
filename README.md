@@ -1,3 +1,12 @@
+#
+#  
+#
+
+#
+# Author's notes
+#
+
+
 # Neural network written in Python (NumPy)
 
 This is an implementation of a fully connected neural network in NumPy. By using the matrix approach to neural networks, this NumPy implementation is able to harvest the power of the BLAS library and efficiently perform the required calculations. The network can be trained by a wide range of learning algorithms.

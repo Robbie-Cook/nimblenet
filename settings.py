@@ -28,7 +28,7 @@ populationSize = numPatterns-numInterventions
 repeats = 50
 auto = False
 printRate = 5000
-numPseudoItems = 32
+numPseudoItems = 128
 mymethod = method.pseudo
 
 learningConstant = 0.3

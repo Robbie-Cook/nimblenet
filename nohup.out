@@ -1,0 +1,101 @@
+
+0 Repeats completed.
+
+[gradient check] Running gradient check...
+[gradient check] Passed!
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.03997.
+[training]   Measured quality: 0.998
+[training]   Trained for 406 epochs.
+('\nRunning Intervention', 1)
+('[training] Current error:', 0.12671276267048059, '\tEpoch:', 5000)
+('[training] Current error:', 0.1265456340339797, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.1265.
+[training]   Measured quality: 0.9684
+[training]   Trained for 10000 epochs.
+('Goodness', 0.73098614341687751)
+('\nRunning Intervention', 2)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.03766.
+[training]   Measured quality: 0.9906
+[training]   Trained for 81 epochs.
+('Goodness', 0.67750413441481305)
+('\nRunning Intervention', 3)
+('[training] Current error:', 0.1254583179869844, '\tEpoch:', 5000)
+('[training] Current error:', 0.12536067250294725, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.1254.
+[training]   Measured quality: 0.9687
+[training]   Trained for 10000 epochs.
+('Goodness', 0.66066940525638507)
+('\nRunning Intervention', 4)
+('[training] Current error:', 0.37522767625271197, '\tEpoch:', 5000)
+('[training] Current error:', 0.37519805101854931, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.3752.
+[training]   Measured quality: 0.9062
+[training]   Trained for 10000 epochs.
+('Goodness', 0.59461603382815209)
+('\nRunning Intervention', 5)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.03591.
+[training]   Measured quality: 0.991
+[training]   Trained for 248 epochs.
+('Goodness', 0.57799057813515275)
+('\nRunning Intervention', 6)
+('[training] Current error:', 0.25030253094124633, '\tEpoch:', 5000)
+('[training] Current error:', 0.12518762513620818, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.1252.
+[training]   Measured quality: 0.9687
+[training]   Trained for 10000 epochs.
+('Goodness', 0.51567814180269644)
+('\nRunning Intervention', 7)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.03409.
+[training]   Measured quality: 0.9915
+[training]   Trained for 2447 epochs.
+('Goodness', 0.49461790293756358)
+('\nRunning Intervention', 8)
+('[training] Current error:', 0.25131292271044731, '\tEpoch:', 5000)
+('[training] Current error:', 0.12541187526534883, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.1254.
+[training]   Measured quality: 0.9686
+[training]   Trained for 10000 epochs.
+('Goodness', 0.43751956286805294)
+('\nRunning Intervention', 9)
+('[training] Current error:', 0.25061439451275325, '\tEpoch:', 5000)
+('[training] Current error:', 0.25054323767012099, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.2505.
+[training]   Measured quality: 0.9374
+[training]   Trained for 10000 epochs.
+('Goodness', 0.35751822264271726)
+('\nRunning Intervention', 10)
+('[training] Current error:', 0.37517311484537663, '\tEpoch:', 5000)
+('[training] Current error:', 0.37510187588938027, '\tEpoch:', 10000)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.3751.
+[training]   Measured quality: 0.9062
+[training]   Trained for 10000 epochs.
+('Goodness', 0.35410773960824826)
+
+1 Repeats completed.
+
+[gradient check] Running gradient check...
+[gradient check] Passed!
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.03976.
+[training]   Measured quality: 0.998
+[training]   Trained for 183 epochs.
+('\nRunning Intervention', 1)
+[training] Finished:
+[training]   Converged to error bound (0.04) with error 0.0397.
+[training]   Measured quality: 0.9901
+[training]   Trained for 279 epochs.
+('Goodness', 0.72951049038696891)
+('\nRunning Intervention', 2)
+('[training] Current error:', 0.12525490082959922, '\tEpoch:', 5000)
+('[training] Current error:', 0.12517261475

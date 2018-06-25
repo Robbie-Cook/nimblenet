@@ -124,6 +124,11 @@ for i in range(repeats):
                 interventions[j]['teacher'][0]
                 )
         meth = settings.mymethod
+        if meth == method.catastrophicForgetting:
+            rehearsal.catastrophicForgetting(
+                network=network,
+                intervention=intervention
+                )
         if meth == method.recency:
             rehearsal.recency(
                 network=network,

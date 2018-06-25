@@ -13,6 +13,14 @@ import random as rand
 import settings
 
 """
+Catastrophic Forgetting
+"""
+def catastrophicForgetting(network, intervention):
+    newInstance = intervention
+    interveningDataset = [newInstance]
+    trainBuffer(network, interveningDataset)
+
+"""
 Recency rehearsal (or random if random=True)
 """
 def recency(network, intervention, learnt, random=False):

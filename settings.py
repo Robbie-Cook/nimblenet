@@ -29,7 +29,7 @@ repeats = 50
 auto = False
 printRate = 5000
 numPseudoItems = 128
-mymethod = method.pseudo
+mymethod = method.catastrophicForgetting
 
 learningConstant = 0.3
 momentumConstant = 0.5

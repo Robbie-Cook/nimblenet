@@ -1,7 +1,7 @@
 import numpy as np
 import os
 import copy
-
+from nimblenet.data_structures import Instance
 
 def getError(network, testset, cost_function):
     assert testset[0].features.shape[0] == network.n_inputs, \
@@ -35,7 +35,19 @@ def print_test( network, testset, cost_function):
     print("[testing]   input\tresult\ttarget")
     for entry, result, target in zip(test_data, out, test_targets):
         print("[testing]   %s\t%s\t%s" % tuple(map(str, [entry, result, target])))
-#end
+
+def getOutputs(network, testset):
+    testset = Instance(testset)
+    test_data              = testset.features
+
+    input_signals, derivatives = network.update( test_data, trace=True )
+    out                        = input_signals[-1]
+    return out[0]
+    # print("[testing] Network error: %.4g" % error)
+    # print("[testing] Network results:")
+    # print("[testing]   input\tresult\ttarget")
+    # for entry, result, target in zip(test_data, out, test_targets):
+    #     print("[testing]   %s\t%s\t%s" % tuple(map(str, [entry, result, target])))
 
 def getGoodness( network, testset, cost_function):
     assert testset[0].features.shape[0] == network.n_inputs, \

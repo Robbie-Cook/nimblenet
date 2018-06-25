@@ -71,7 +71,6 @@ class Task:
             self.task['inputPatterns'].append(ip[i])
             self.task['teacher'].append(tp[i])
 
-
     # def loadTask(self, preserveNet=True):
     #     task = self.task
     #     nn.initalise(input=task["inputPatterns"], teach=task["teacher"], momentum=task["momentumConstant"],

@@ -3,10 +3,10 @@ import numpy as np
 class Instance:
     # This is a simple encapsulation of a `input signal : output signal`
     # pair in our training set.
-    def __init__(self, features, target = None ):
+    def __init__(self, features, target = list() ):
         self.features = np.array(features)
 
-        if target != None:
+        if len(target) > 0:
             self.targets  = np.array(target)
         else:
             self.targets  = None

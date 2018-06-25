@@ -9,34 +9,65 @@ import task
 import os
 import json
 import numpy as np
-import random
+import random as rand
+import settings
 
 """
-Takes inputs as Instance objects e.g
-recency(Instance([0,0],[0]), Instance([0,1],[0]), Instance([1,0],[0]),
-        Instance([1,0],[0]))
+Recency rehearsal (or random if random=True)
 """
-def learnBuffer(network, interveningTask, buffer2, buffer3, buffer4, cost_function,
-            learningAlgorithm, errorCriterion, maxIterations):
-    print("\nIntervening\n")
+def recency(network, intervention, learnt, random=False):
+    newInstance = intervention
 
-    interveningDataset = [interveningTask, buffer2, buffer3, buffer4]
+    if random:          # Random rehearsal
+        rand.shuffle(learnt)
 
+    buffer2=learnt[0]
+    buffer3=learnt[0]
+    buffer4=learnt[len(learnt)-1]
+    if len(learnt) >= 3:
+        buffer2=learnt[-1]
+        buffer3=learnt[-2]
+        buffer4=learnt[-3]
+
+
+    interveningDataset = [newInstance, buffer2, buffer3, buffer4]
+    trainBuffer(network, interveningDataset)
+
+
+def random(network, intervention, learnt):
+    recency(network, intervention, learnt, random=True)
+
+def pseudo(network, intervention, numPseudoItems):
+    # Pseudoitems for pseudorehearsal
+    pseudoItems = generatePseudoPairs(network, numPseudoItems)
+    rand.shuffle(pseudoItems)
+    buffer = [intervention, pseudoItems[-1], pseudoItems[-2], pseudoItems[-3]]
+    trainBuffer(network, buffer)
+
+def trainBuffer(network, buffer):
     # Train the network using backpropagation
-    learningAlgorithm(
+    settings.learningAlgorithm(
             network,                            # the network to train
-            interveningDataset,                      # specify the training set
-            interveningDataset,                          # specify the test set
-            cost_function,                      # specify the cost function to calculate error
+            buffer,                      # specify the training set
+            buffer,                          # specify the test set
+            settings.cost_function,                      # specify the cost function to calculate error
 
-            ERROR_LIMIT             = errorCriterion,     # define an acceptable error limit
-            max_iterations         = maxIterations,      # continues until the error limit is reach if this argument is skipped
+            ERROR_LIMIT             = settings.errorCriterion,     # define an acceptable error limit
+            max_iterations         = settings.maxIterations,      # continues until the error limit is reach if this argument is skipped
 
-            batch_size              = batch_size,        # 1 := no batch learning, 0 := entire trainingset as a batch, anything else := batch size
-            print_rate              = printRate,     # print error status every `print_rate` epoch.
-            learning_rate           = learningConstant,      # learning rate
-            momentum_factor         = momentumConstant,      # momentum
+            batch_size              = settings.batch_size,        # 1 := no batch learning, 0 := entire trainingset as a batch, anything else := batch size
+            print_rate              = settings.printRate,     # print error status every `print_rate` epoch.
+            learning_rate           = settings.learningConstant,      # learning rate
+            momentum_factor         = settings.momentumConstant,      # momentum
             input_layer_dropout     = 0.0,      # dropout fraction of the input layer
             hidden_layer_dropout    = 0.0,      # dropout fraction in all hidden layers
             save_trained_network    = False     # Whether to write the trained weights to disk
         )
+
+def generatePseudoPairs(network, numItems):
+    mytask = task.Task(inputNodes=settings.inputNodes, hiddenNodes=settings.hiddenNodes,
+                outputNodes=settings.outputNodes, populationSize=numItems, auto=False).task
+    pseudoInputs = mytask['inputPatterns']
+    pseudoItems = [Instance(a, getOutputs(network, a)) for a in pseudoInputs]
+    # print("test", str(pseudoItems[0]))
+    return pseudoItems

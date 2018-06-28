@@ -9,7 +9,7 @@ import math
 ["check_network_structure", "verify_dataset_shape_and_modify", "print_training_status", "print_training_results"]
 
 
-def backpropagation_foundation(network, trainingset, testset, cost_function, calculate_dW, evaluation_function = None, ERROR_LIMIT = 1e-3, max_iterations = (), batch_size = 0, input_layer_dropout = 0.0, hidden_layer_dropout = 0.0, print_rate = 1000, save_trained_network = False, **kwargs):
+def backpropagation_foundation(network, trainingset, testset, cost_function, calculate_dW, evaluation_function = None, ERROR_LIMIT = 1e-3, max_iterations = (), batch_size = 0, input_layer_dropout = 0.0, hidden_layer_dropout = 0.0, print_rate = 1000, save_trained_network = False, quiet=False, **kwargs):
     check_network_structure( network, cost_function ) # check for special case topology requirements, such as softmax
 
     training_data, training_targets = verify_dataset_shape_and_modify( network, trainingset )
@@ -75,17 +75,17 @@ def backpropagation_foundation(network, trainingset, testset, cost_function, cal
             #end weight adjustment loop
 
         error = calculate_print_error(network.update( test_data ), test_targets )
-
-        if epoch%print_rate==0:
-            # Show the current training status
-            print( "[training] Current error:", error, "\tEpoch:", epoch)
-
-    print( "[training] Finished:")
-    print( "[training]   Converged to error bound (%.4g) with error %.4g." % ( ERROR_LIMIT, error ))
-    print( "[training]   Measured quality: %.4g" % network.measure_quality( training_data, training_targets, cost_function ))
-    print( "[training]   Trained for %d epochs." % epoch)
+        if not quiet:
+            if epoch%print_rate==0:
+                # Show the current training status
+                print( "[training] Current error:", error, "\tEpoch:", epoch)
+    if not quiet:
+        print( "[training] Finished:")
+        print( "[training]   Converged to error bound (%.4g) with error %.4g." % ( ERROR_LIMIT, error ))
+        print( "[training]   Measured quality: %.4g" % network.measure_quality( training_data, training_targets, cost_function ))
+        print( "[training]   Trained for %d epochs." % epoch)
 
     if save_trained_network and confirm( promt = "Do you wish to store the trained network?" ):
         network.save_network_to_file()
-    
+
 # end backprop

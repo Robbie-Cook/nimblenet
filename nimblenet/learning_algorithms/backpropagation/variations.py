@@ -93,7 +93,7 @@ def nesterov_momentum(network, trainingset, testset, cost_function, momentum_fac
 
 
 
-def classical_momentum(network, trainingset, testset, cost_function, momentum_factor = 0.9, **kwargs  ):
+def classical_momentum(network, trainingset, testset, cost_function, momentum_factor = 0.9, quiet=False, **kwargs  ):
     configuration = dict(default_configuration)
     configuration.update( kwargs )
 
@@ -106,7 +106,7 @@ def classical_momentum(network, trainingset, testset, cost_function, momentum_fa
         return dW
     #end
 
-    return backpropagation_foundation( network, trainingset, testset, cost_function, calculate_dW, **configuration  )
+    return backpropagation_foundation( network, trainingset, testset, cost_function, calculate_dW, quiet=quiet, **configuration  )
 #end
 
 

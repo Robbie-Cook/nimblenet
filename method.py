@@ -1,5 +1,8 @@
-random = 0
-recency = 1
-sweep = 2
+# Enum class of different
+
+catastrophicForgetting = 0
+random = 1
+recency = 2
 pseudo = 3
-catastrophicForgetting = 4
+sweep = 4
+pseudoSweep = 5

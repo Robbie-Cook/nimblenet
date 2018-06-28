@@ -105,7 +105,7 @@ for i in range(repeats):
     """
     Form inital goodness
     """
-    goodness = getGoodness(network=network, testset=test_data, cost_function=cost_function)
+    goodness = getGoodness(network=network, testset=test_data)
     totalError[0] += goodness
 
     """
@@ -123,6 +123,7 @@ for i in range(repeats):
                 interventions[j]['inputPatterns'][0],
                 interventions[j]['teacher'][0]
                 )
+
         meth = settings.mymethod
         if meth == method.catastrophicForgetting:
             rehearsal.catastrophicForgetting(
@@ -149,11 +150,27 @@ for i in range(repeats):
                 intervention=intervention,
                 numPseudoItems=settings.numPseudoItems
             )
+        elif meth == method.sweep:
+            rehearsal.sweep(
+                network=network,
+                intervention=intervention,
+                learnt=learnt
+            )
+        elif meth == method.pseudoSweep:
+            rehearsal.pseudoSweep(
+                network=network
+            )
+        else:
+            print("Method not valid")
+            exit(0)
+
+
+        # Add intervening item to learnt items
         learnt.append(intervention)
 
 
-        print("Goodness", getGoodness(network=network, testset=test_data, cost_function=cost_function))
-        totalError[j+1] += getGoodness(network=network, testset=test_data, cost_function=cost_function)
+        print("Goodness", getGoodness(network=network, testset=test_data))
+        totalError[j+1] += getGoodness(network=network, testset=test_data)
 
 
 averageError = [i/repeats for i in totalError]

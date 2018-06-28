@@ -18,7 +18,8 @@ import time
 import settings
 import method
 
-save = True # whether to save the data
+save = False # whether to save the data
+mymethod = method.pseudoSweep
 inputNodes = 32
 hiddenNodes = 16
 outputNodes = 32
@@ -28,12 +29,12 @@ populationSize = numPatterns-numInterventions
 repeats = 50
 auto = False
 printRate = 5000
+
 numPseudoItems = 128
-mymethod = method.catastrophicForgetting
 
 learningConstant = 0.3
 momentumConstant = 0.5
-errorCriterion = 0.04
+errorCriterion = 0.05
 maxIterations = 10000
 
 cost_function = sum_squared_error
@@ -41,10 +42,10 @@ batch_size = 1
 learningAlgorithm = backpropagation_classical_momentum
 outputFile = None
 
-
+if not __name__ == "__main__":
 # Make a new, distinct file
-if save:
-    i = 0
-    while "output{}.txt".format(i) in os.listdir("data"):
-        i+=1
-    outputFile = open("data/output{}.txt".format(i), 'w')
+    if save:
+        i = 0
+        while "output{}.txt".format(i) in os.listdir("data"):
+            i+=1
+        outputFile = open("data/output{}.txt".format(i), 'w')

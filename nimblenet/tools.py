@@ -49,7 +49,7 @@ def getOutputs(network, testset):
     # for entry, result, target in zip(test_data, out, test_targets):
     #     print("[testing]   %s\t%s\t%s" % tuple(map(str, [entry, result, target])))
 
-def getGoodness( network, testset, cost_function):
+def getGoodness( network, testset ):
     assert testset[0].features.shape[0] == network.n_inputs, \
         "ERROR: input size varies from the defined input setting"
     assert testset[0].targets.shape[0]  == network.layers[-1][0], \

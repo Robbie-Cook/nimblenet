@@ -159,6 +159,7 @@ for i in range(repeats):
         elif meth == method.pseudoSweep:
             rehearsal.pseudoSweep(
                 network=network,
+                intervention=intervention,
                 numPseudoItems=settings.numPseudoItems
             )
         else:

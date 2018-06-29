@@ -114,7 +114,7 @@ def sweep(network, intervention, learnt):
         # update current error
         currentError = getError(network, [intervention], settings.cost_function)
 
-def pseudoSweep(network, numPseudoItems):
+def pseudoSweep(network, intervention, numPseudoItems):
     iterations = 0
     currentError = getError(network, [intervention], settings.cost_function)
     while currentError > settings.errorCriterion and iterations < settings.maxIterations:

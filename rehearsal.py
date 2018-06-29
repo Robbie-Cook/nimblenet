@@ -77,7 +77,7 @@ Random pseudorehearsal
 """
 def pseudo(network, intervention, numPseudoItems):
     # Pseudoitems for pseudorehearsal
-    pseudoItems = generatePseudoPairs(numPseudoItems)
+    pseudoItems = generatePseudoPairs(network, numPseudoItems)
     rand.shuffle(pseudoItems)
     buffer = [intervention, pseudoItems[-1], pseudoItems[-2], pseudoItems[-3]]
     trainBuffer(network, buffer)
@@ -85,7 +85,7 @@ def pseudo(network, intervention, numPseudoItems):
 """
 Generates pseudoitem pairs (input and output) for pseudorehearsal
 """
-def generatePseudoPairs(numItems):
+def generatePseudoPairs(network, numItems):
     mytask = task.Task(inputNodes=settings.inputNodes, hiddenNodes=settings.hiddenNodes,
                 outputNodes=settings.outputNodes, populationSize=numItems, auto=False).task
     pseudoInputs = mytask['inputPatterns']

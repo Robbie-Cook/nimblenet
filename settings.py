@@ -39,7 +39,7 @@ Options are:
     - method.pseudo (Random pseudorehearsal)
     - method.pseudoSweep (Sweep pseudorehearsal)
 """
-mymethod = method.random
+mymethod = method.pseudoSweep
 
 numPseudoItems = 128 # How many pseudoitems to generate
 
@@ -57,7 +57,7 @@ auto = False     # Whether the learning is autoassociative (e.g. [1,0] -> [1,0])
                  # or heteroassociative (e.g. [1,0] -> [0,0])
                  # Input patterns are uniquely generated
 
-printRate = 5000
+printRate = 1000
 
 learningConstant = 0.3
 momentumConstant = 0.5

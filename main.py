@@ -158,7 +158,8 @@ for i in range(repeats):
             )
         elif meth == method.pseudoSweep:
             rehearsal.pseudoSweep(
-                network=network
+                network=network,
+                numPseudoItems=settings.numPseudoItems
             )
         else:
             print("Method not valid")

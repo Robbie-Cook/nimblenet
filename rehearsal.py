@@ -122,13 +122,9 @@ def pseudoSweep(network, intervention, numPseudoItems):
         if iterations % settings.printRate == 0:
             print("{} times, error: {}, goodness: {}".format(iterations,  getError(network, [intervention], settings.cost_function),
             getGoodness(network, [intervention])))
-        rand.shuffle(learnt)
         pseudoItems = generatePseudoPairs(numPseudoItems)
         rand.shuffle(pseudoItems)
-        if len(learnt) >= 3:
-            buffer = [intervention, pseudoItems[-1], pseudoItems[-2], pseudoItems[-3]]
-        else:
-            buffer = [intervention, intervention, intervention, intervention]
+        buffer = [intervention, pseudoItems[-1], pseudoItems[-2], pseudoItems[-3]]
         rand.shuffle(buffer)
         trainBuffer(network, buffer, maxIterations=1, quiet=True)
 

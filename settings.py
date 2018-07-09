@@ -48,6 +48,7 @@ hiddenNodes = 16         # Number of hidden neurons
 outputNodes = 32         # Number of output neurons
 numInterventions = 10    # Number of intervening trials
 numPatterns = 20+numInterventions  # Total number of patterns to learn
+numLayers = 3 # Number of layers of the network
 
 populationSize = numPatterns-numInterventions
 repeats = 50 # Number of times to repeat the experiment completely on a new population

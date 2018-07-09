@@ -69,9 +69,12 @@ for i in range(repeats):
     training_data       = dataset
     test_data           = dataset
 
+    layers = [ (hiddenNodes, sigmoid_function) for i in range(settings.numLayers) ]
+    layers.append((outputNodes, sigmoid_function))
+    print("Layers: {}".format(layers))
     mysettings            = {
         "n_inputs"              : inputNodes,       # Number of network input signals
-        "layers"                : [  (hiddenNodes, sigmoid_function), (outputNodes, sigmoid_function) ],
+        "layers"                : layers,
         "initial_bias_value"    : 0.01,
         "weights_low"           : -0.3,     # Lower bound on the initial weight value
         "weights_high"          : 0.3,

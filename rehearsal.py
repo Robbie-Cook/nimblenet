@@ -117,12 +117,12 @@ def sweep(network, intervention, learnt):
 def pseudoSweep(network, intervention, numPseudoItems):
     iterations = 0
     currentError = getError(network, [intervention], settings.cost_function)
+    pseudoItems = generatePseudoPairs(network, numPseudoItems)
     while currentError > settings.errorCriterion and iterations < settings.maxIterations:
         iterations+=1
         if iterations % settings.printRate == 0:
             print("{} times, error: {}, goodness: {}".format(iterations,  getError(network, [intervention], settings.cost_function),
             getGoodness(network, [intervention])))
-        pseudoItems = generatePseudoPairs(network, numPseudoItems)
         rand.shuffle(pseudoItems)
         buffer = [intervention, pseudoItems[-1], pseudoItems[-2], pseudoItems[-3]]
         rand.shuffle(buffer)
